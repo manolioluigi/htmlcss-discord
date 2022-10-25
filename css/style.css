@@ -22,7 +22,7 @@ header{
     background-size: cover;
 }
 
-.rowLogo{
+.row-logo{
     display: flex;
     flex-direction: row;
     padding: 1%;
@@ -30,20 +30,20 @@ header{
     justify-content: center;
 }
 
-.columnLogo{
+.column-logo{
     width: 15%;
     display: flex;
     justify-content: left;
 }
 
-.columnMenu{
+.column-menu{
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.columnLogin{
+.column-login{
     width: 15%;
     justify-content: right;
     display: flex;
@@ -58,7 +58,7 @@ header{
     font-weight: bold;
 }
 
-.rowLogoText{
+.row-logo-text{
     display: flex;
     flex-direction: row;
     padding-top: 3%;
@@ -66,7 +66,7 @@ header{
     justify-content: center;
 }
 
-.rowLogoText2{
+.row-logo-text2{
     display: flex;
     flex-direction: row;
     padding-top: 1%;
@@ -75,44 +75,44 @@ header{
     justify-content: center;
 }
 
-.columnLogoText{
+.column-logo-text{
     width: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.columnLogoText2{
+.column-logo-text2{
     width: 650px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.rowLogo span{
+.row-logo span{
     padding: 5px;
 }
 
-.columnLogoText h1{
+.column-logo-text h1{
     font-size: 40px;
     color: white;
     padding-bottom: 20px;
 }
 
-.columnLogoText p{
+.column-logo-text p{
     color: white;
     font-size: 16px;
     text-align: center;
 }
 
-#macDownload{
+#mac-download{
     background-color: white;
     margin: 5px 15px 5% 0px;
     padding: 10px 15px 10px 15px;
     border-radius: 20px;
 }
 
-#browserDiscord{
+#browser-discord{
     background-color: rgb(36, 35, 35);
     margin: 5px 0px 5% 0px;
     padding: 10px 15px 10px 15px;
@@ -128,13 +128,13 @@ header{
     margin: auto;
 }
 
-.containerGray{
+.container-gray{
     width: auto;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-.containerFooter{
+.container-footer{
     width: auto;
     padding-left: 15%;
     padding-right: 15%;
@@ -150,7 +150,7 @@ header{
     padding: 25px;
 }
 
-.rowReverse{
+.row-reverse{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -158,14 +158,14 @@ header{
     justify-content: space-between;
 }
 
-.rowFooter{
+.row-footer{
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 50px 25px 20px 25px;
 }
 
-.rowFooterRegister{
+.row-footer-register{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -174,40 +174,40 @@ header{
 
 /*Column varie*/
 
-.columnSmall{
+.column-small{
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.columnLarge{
+.column-large{
     width: 70%;
     display: flex;
     justify-content: flex-start;
 }
 
-.columnBig{
+.column-big{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.columnFooterLarge{
+.column-footer-large{
     width: 32%;
     color: white;
     font-size: 12px
 }
 
-.columnFooterSmall{
+.column-footer-small{
     width: 17%;
     color: white;
     display: flex;
     flex-direction: column;
 }
 
-.columnFooterRegister{
+.column-footer-register{
     width: 100%;
     height: 50px;
     display: flex;
@@ -215,32 +215,34 @@ header{
     padding: 10px 0px 10px 0px;
 }
 
-.columnSmall h1{
+.column-small h1{
     font-size: 35px;
     padding-bottom: 10px;
 }
 
-.columnSmall p{
+.column-small p{
     font-size: 16px;
 }
 
-.columnLarge img{
+.column-large img{
     max-width: 80%;
 }
 
-.rowReverse .columnLarge{
+.row-reverse .column-large{
     justify-content: flex-end;
 }
 
-.columnBig h1{
+.column-big h1{
     font-size: 35px;
     padding: 2%;
 }
 
-.columnBig p{
+.column-big p{
     font-size: 16px;
     padding-bottom: 10px;
 }
+
+/*minuzie varie*/
 
 #stars{
     background-image: url(../img/stars.svg);
@@ -257,7 +259,7 @@ header{
     font-weight: bold;
 }
 
-.columnFooterLarge img{
+.column-footer-large img{
     max-width: 15px;
     margin: 10px 10px 0px 0px;
 }
@@ -266,13 +268,13 @@ header{
     margin: 0px;
 }
 
-.columnFooterLarge h2{
+.column-footer-large h2{
     font-size: 30px;
     color: rgb(151, 151, 255);
     padding-bottom: 10px;
 }
 
-.columnFooterSmall span{
+.column-footer-small span{
     padding-bottom: 5px;
 }
 
