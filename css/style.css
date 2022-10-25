@@ -156,6 +156,7 @@ header{
     flex-direction: row-reverse;
     width: 100%;
     padding: 25px;
+    justify-content: flex-start;
 }
 
 .rowFooter{
@@ -175,15 +176,11 @@ header{
 /*Column varie*/
 
 .columnSmall{
-    width: 40%;
-    height: 400px;
-    background-color: pink;
+    width: 30%;
 }
 
 .columnLarge{
-    width: 60%;
-    height: 400px;
-    background-color: cyan;
+    width: 70%;
 }
 
 .columnBig{
@@ -212,6 +209,19 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
+}
+
+.columnSmall h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.columnSmall p{
+    font-size: 16px;
+}
+
+.columnLarge img{
+    max-width: 80%;
 }
 
 hr{
