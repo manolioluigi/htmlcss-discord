@@ -156,7 +156,7 @@ header{
     flex-direction: row-reverse;
     width: 100%;
     padding: 25px;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .rowFooter{
@@ -177,10 +177,15 @@ header{
 
 .columnSmall{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .columnLarge{
     width: 70%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .columnBig{
@@ -222,6 +227,10 @@ header{
 
 .columnLarge img{
     max-width: 80%;
+}
+
+.rowReverse .columnLarge{
+    justify-content: flex-end;
 }
 
 hr{
